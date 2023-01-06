@@ -1,10 +1,3 @@
-/*
-* Template Name: Our Love - Responsive Wedding Template
-* Author: LMPixels (Linar Miftakhov)
-* Author URL: http://themeforest.net/user/lmpixels
-* Version: 1.0
-*/
-
 (function($) {
     "use strict";
         var mainNav = $('.main-nav'); //Main menu selector

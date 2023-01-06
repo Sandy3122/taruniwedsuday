@@ -2,9 +2,9 @@
 
 // configure
 $from = 'seeram87@gmail.com';
-$sendTo = 'yourmail@example.com';
+$sendTo = 'taruniwedsuday@gmail.com';
 $subject = 'New message from RSVP form';
-$fields = array('name' => 'Name', 'email' => 'Email', 'events' => 'Events', 'message' => 'Message'); // array variable name => Text to appear in the email
+$fields = array('name' => 'Name', 'message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'RSVP form successfully submitted. Thank you!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
