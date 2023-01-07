@@ -9,15 +9,15 @@
 
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script&amp;display=swap'>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/invitationStyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <!-- partial:index.partial.html -->
     <div class="sakura-falling audiplay"></div>
-    <img src="/Wedding-Invitation-master/assets/img/right.png" alt="image-top-right" class="top-right-decoration">
-    <img src="/Wedding-Invitation-master/assets/img/left.png" alt="image-top-left" class="top-left-decoration">
+    <img src="/images/invitation/right.png" alt="image-top-right" class="top-right-decoration">
+    <img src="/images/invitation/left.png" alt="image-top-left" class="top-left-decoration">
     <!-- https://i.imgur.com/t6ffnbn.png -->
     <section id="media"></section>
     <div>
@@ -58,9 +58,13 @@
                 #mute-icon {
                     padding: 10px;
                 }
+                #play-icon
+                {
+                	visibility: hidden;
+                }
             </style>
 
-            <div><audio src="/Wedding-Invitation-master/assets/mp3/song.mp3" autoplay loop></audio>
+            <div><audio src="" autoplay loop></audio>
                 <div class="audio">
                     <button id="play-icon"></button>
                     <button id="mute-icon"></button>
@@ -75,11 +79,11 @@
 <!-- partial -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
-<script src="./js/script.js"></script>
+<script src="/js//InvitationScript.js"></script>
 <script src="https://cdn.jsdeliver.net/gh/SH20RAJ/Audiplay/audiplay.js"></script>
 <!--Audio Tags-->
-<audio-player data-src="/Wedding-Invitation-master/assets/mp3/song.mp3"></audio-player>
+<audio-player data-src="/song.mp3"></audio-player>
 <!-- JS CDN -->
-<script type="module" src="/Wedding-Invitation-master/js/audiplayv2.js"></script>
+<script type="module" src="/js/audiplay.js"></script>
 
 </html>
