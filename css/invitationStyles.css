@@ -354,29 +354,37 @@ body {
 	font-family: Arial, Helvetica, Sans-serif;
 }
 
-img {
+/* img {
 	max-width: 100%;
 	height: auto;
-}
+} */
 
 @media (max-width:900px) {
-	img {
-		max-width: 30%;
+	.top-right-decoration, .top-left-decoration, .left-bottom-decoration,.right-bottom-decoration
+	{
+		width: 180px;
 	}
 }
 
-.top-right-decoration {
-	position: absolute;
-	top: 0;
-	right: 0;
-	display: block;
+@media only screen and (max-width:769px) {
+	.top-right-decoration, .top-left-decoration, .left-bottom-decoration,.right-bottom-decoration
+	{
+		width: 170px;
+	}
 }
 
-.top-left-decoration {
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: block;
+@media only screen and (max-width:420px){
+	.top-right-decoration, .top-left-decoration, .left-bottom-decoration,.right-bottom-decoration
+	{
+		width: 160px;
+	}
+}
+
+@media only screen and (max-width:360px) {
+	.top-right-decoration, .top-left-decoration, .left-bottom-decoration,.right-bottom-decoration
+	{
+		width: 150px;
+	}
 }
 
 .title h1 {
@@ -573,3 +581,56 @@ a {
 	font-size: 12px;
 	letter-spacing: 0pt;
 }
+
+.top-right-decoration {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+}
+
+.top-left-decoration {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+/* .middle-left-decoration
+{
+	position: absolute;
+	display: block;
+	width: 25%;
+	height: 50%;
+	top: 200px;
+	right: 80%;
+
+}
+
+.middle-right-decoration
+{
+	position: absolute;
+	display: block;
+	width: 25%;
+	height: 50%;
+	top: 200px;
+	left: 80%;
+} */
+
+.img-footer {
+	position: fixed;
+	display: block;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+ }
+
+
+body
+ {
+	background-image: url("/Wedding-Invitation.png");
+	background-repeat: no-repeat;
+  	background-attachment:fixed;
+  	background-size: 100% 100vh;
+ }

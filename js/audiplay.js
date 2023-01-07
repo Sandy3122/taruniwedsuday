@@ -41,8 +41,8 @@ const everything = function(element) {
         path: 'https://maxst.icons8.com/vue-static/landings/animated-icons/icons/mute/mute.json',
         // renderer: 'svg',
         loop: false,
-        autoplay: false,
-        name: "Mute Animation",
+        autoplay: true,
+        name: "Play Animation",
     });
           
     playAnimation.goToAndStop(14, true);
