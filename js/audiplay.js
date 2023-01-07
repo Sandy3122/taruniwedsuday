@@ -32,8 +32,8 @@ const everything = function(element) {
         // renderer: 'svg',
         // Background: 'black !important',
         loop: false,
-        autoplay: false,
-        name: "Play Animation",
+        autoplay: true,
+        name: "Pause Animation",
     });
           
     const muteAnimation = lottieWeb.loadAnimation({
