@@ -164,8 +164,8 @@ a.button {
     color: #353535;
     text-shadow: none;
     text-decoration: none;
-    /* background: 0 0; */
-    background: #119ffd;
+    background: 0 0;
+    /* background: #119ffd; */
     border-radius: 4px;
     font-family: roboto, Helvetica, sans-serif;
     /* -webkit-transition-duration: .3s;
@@ -189,7 +189,7 @@ a.button:hover {
     color: #fff;
     background-color: #ff8578;
     text-decoration: none;
-    box-shadow: inset 0 0 0 0 #119ffd;
+    box-shadow: inset 0 0 0 50px #ff8578;
 }
 
 input[type=submit]:visited,
@@ -1487,6 +1487,8 @@ ul.social-links li a:hover i {
     padding: 35px 15px 15px 15px;
 }
 
+/* Live Video Block */
+
 .myVideo{
-    -webkit-animation: run-loop 5s linear infinite; /* Safari */
+    -webkit-animation: run-loop 5s linear infinite;
 }
