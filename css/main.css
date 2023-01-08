@@ -3,6 +3,18 @@
 @import 'https://fonts.googleapis.com/css?family=Courgette';
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic';
 
+
+
+.text-selection-disable
+{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+     user-select: none; /* Non-prefixed version, currently */
+}
+
 html {
     height: 100%
 }
@@ -111,7 +123,7 @@ img {
     visibility: hidden
 }
 
-input[type=submit],
+/* input[type=submit],
 input[type=button],
 button,
 a.button {
@@ -133,6 +145,34 @@ a.button {
     font-family: roboto, Helvetica, sans-serif;
     -webkit-transition-duration: .3s;
     transition-duration: .3s
+} */
+
+input[type=submit],
+input[type=button],
+button,
+a.button {
+    display: inline-block;
+    position: relative;
+    padding: .8em 2em;
+    margin-bottom: .25em;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.2;
+    border: 0;
+    outline: 0;
+    border: 2px solid #ff8578;
+    color: #353535;
+    text-shadow: none;
+    text-decoration: none;
+    /* background: 0 0; */
+    background: #119ffd;
+    border-radius: 4px;
+    font-family: roboto, Helvetica, sans-serif;
+    /* -webkit-transition-duration: .3s;
+    transition-duration: .3s; */
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    box-shadow: inset 0 0 0 0 #303439;
 }
 
 a.button.small-button {
@@ -148,7 +188,8 @@ button:hover,
 a.button:hover {
     color: #fff;
     background-color: #ff8578;
-    text-decoration: none
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #119ffd;
 }
 
 input[type=submit]:visited,
@@ -1444,4 +1485,8 @@ ul.social-links li a:hover i {
     text-transform: capitalize;
     font-weight: 300px;
     padding: 35px 15px 15px 15px;
+}
+
+.myVideo{
+    -webkit-animation: run-loop 5s linear infinite; /* Safari */
 }
