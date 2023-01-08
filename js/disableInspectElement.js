@@ -27,26 +27,26 @@
 
   // <!-- Disable Inspect Element -->
   
-// window.oncontextmenu = function () {
-//     return false;
-//   }
-//   $(document).keydown(function (event) {
-//     if (event.keyCode == 123) {
-//       return false;
-//     }
-//     else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
-//       return false;
-//     }
-//     else if (event.ctrlKey && event.keyCode == "U".charCodeAt(0)) {
-//       return false;
-//     }
-//     else if (event.ctrlKey && event.shiftKey && event.keyCode == "I".charCodeAt(0)) {
-//       return false;
-//     }
-//     else if (event.ctrlKey && event.shiftKey && event.keyCode == "C".charCodeAt(0)) {
-//       return false;
-//     }
-//     else if (event.ctrlKey && event.shiftKey && event.keyCode == "J".charCodeAt(0)) {
-//       return false;
-//     }
-//   });
+window.oncontextmenu = function () {
+    return false;
+  }
+  $(document).keydown(function (event) {
+    if (event.keyCode == 123) {
+      return false;
+    }
+    else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+      return false;
+    }
+    else if (event.ctrlKey && event.keyCode == "U".charCodeAt(0)) {
+      return false;
+    }
+    else if (event.ctrlKey && event.shiftKey && event.keyCode == "I".charCodeAt(0)) {
+      return false;
+    }
+    else if (event.ctrlKey && event.shiftKey && event.keyCode == "C".charCodeAt(0)) {
+      return false;
+    }
+    else if (event.ctrlKey && event.shiftKey && event.keyCode == "J".charCodeAt(0)) {
+      return false;
+    }
+  });
