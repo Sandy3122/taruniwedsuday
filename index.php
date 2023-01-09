@@ -477,7 +477,7 @@
 
             <div class="row">
               <!-- Wishes Form -->
-              <form id="rsvp-form" class="rsvp-form" method="post" action="#">
+              <form id="rsvp-form" class="rsvp-form" method="post" action="">
                 <div class="col-md-12">
                   <!-- <div class="messages"></div> -->
                   <h5 class="text-center text-success">
