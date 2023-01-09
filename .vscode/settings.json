@@ -1,0 +1,11 @@
+{
+    "liveServer.settings.port": 5501,
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "intelephense.diagnostics.undefinedTypes": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.undefinedVariables": false,
+    "intelephense.diagnostics.undefinedSymbols": true,
+    "intelephense.diagnostics.undefinedConstants": true,
+    "intelephense.diagnostics.undefinedClassConstants": true,
+    "intelephense.diagnostics.unexpectedTokens": true
+}

@@ -8,7 +8,7 @@
   <title>Taruni Weds Uday</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="description" content="We Are Getting Married" />
-  <meta name="keywords" content="LOVE For Eternity" />
+  <meta name="keywords" content="Love For Eternity" />
   <meta name="author" content="SEERAM SANDEEP" />
   <link rel="shortcut icon" href="/images/Icons/favicon.ico">
 
@@ -20,7 +20,6 @@
   <link rel="stylesheet" href="css/main.css" type="text/css">
 
 
-  <link rel="stylesheet" href="preview/lmpixels-demo-panel.css" type="text/css">
 
   <script>
     (function (i, s, o, g, r, a, m) {
@@ -44,6 +43,11 @@
 </head>
 
 <body>
+
+    <?php
+      include("/TrauniWedsUday/form.php")
+    ?>
+
   <!-- Loading animation -->
   <div class="text-selection-disable">
     <div class="preloader">
@@ -473,11 +477,10 @@
 
             <div class="row">
               <!-- Wishes Form -->
-              <form id="rsvp-form" class="rsvp-form" method="post" action="rsvp_form/rsvp_form.php" novalidate>
+              <form id="rsvp-form" class="rsvp-form" method="post" action="#">
                 <div class="col-md-12">
                   <!-- <div class="messages"></div> -->
                   <h5 class="text-center text-success">
-                    <!-- <?= $result; ?> -->
                   </h5>
                 </div>
                 <div class="controls">
@@ -552,7 +555,6 @@
   <!--Audio Tags-->
   <audio-player data-src="song.mp3"></audio-player>
   <!-- JS CDN -->
-  <script type="module" src="js/audiplayv2.js"></script>
 
 
 
@@ -560,9 +562,6 @@
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <!-- Disable Inspect Element -->
   <script src="/js/disableInspectElement.js"></script>
-  <script>
-    document.getElementById("myVideo").loop = true;
-  </script>
 
 </body>
 
