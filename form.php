@@ -54,7 +54,7 @@
 
       $mail->send();
       $output = '<div class="alert alert-success">
-                  Thankyou! for contacting us,'.$_POST['name'].'
+                  Thank you! for your warm wishes,'.$_POST['name'].'
                 </div>';
                 
     } catch (Exception $e) {
