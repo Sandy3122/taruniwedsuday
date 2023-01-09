@@ -10,7 +10,7 @@
   <meta name="description" content="We Are Getting Married" />
   <meta name="keywords" content="Love For Eternity" />
   <meta name="author" content="SEERAM SANDEEP" />
-  <link rel="shortcut icon" href="//assets/images/Icons/favicon.ico">
+  <link rel="shortcut icon" href="/assets/images/Icons/favicon.ico">
 
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/normalize.css">
@@ -26,11 +26,6 @@
 </head>
 
 <body>
-
-    <?php
-      include("/TrauniWedsUday/form.php")
-    ?>
-
   <!-- Loading animation -->
   <div class="text-selection-disable">
     <div class="preloader">
@@ -399,7 +394,7 @@
               <h2>Our Live Wedding</h2><br>
             </div>
             <div class="embed-responsive embed-responsive-16by9" hoverable>
-              <!-- <iframe class="embed-responsive-item frameborder=0 " src="/Wedding-Invitation.pdf" frameborder="0"
+              <!-- <iframe class="embed-responsive-item frameborder=0 " src="/assets/images/invitation/Wedding-Invitation.pdf" frameborder="0"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe> -->
@@ -408,7 +403,8 @@
                   <source src="/coming-soon.mp4" type="video/mp4">
                 </video> -->
 
-                <img class="myVideo" src="/coming-soon.mp4" alt="coming-sson">
+
+                <img class="myVideo" src="/assets/images/coming-soon.gif" alt="coming-soon">
 
             </div><br>
             <p>Want to watch on YouTube? <a target="_blank" rel="noopener noreferrer"
@@ -425,7 +421,7 @@
 
             <div id="invitation" class="container img-container">
               <div class="img-overlay">
-                <img src="Wedding-Invitation.png" alt="invitation card">
+                <img src="/assets/images/invitation/Wedding-Invitation.png" alt="invitation card">
 
                 <div class="card row">
                   <div class="card-title col-6 text-truncate mx-auto">
@@ -463,7 +459,7 @@
                 <div class="col-md-12">
                   <!-- <div class="messages"></div> -->
                   <h5 class="text-center text-success">
-                    <?= $output; ?>
+                  <?= $output; ?>
                   </h5>
                 </div>
                 <div class="controls">
@@ -535,8 +531,6 @@
   <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
   <script src="js/main.js"></script>
 
-  <!--Audio Tags-->
-  <audio-player data-src="song.mp3"></audio-player>
   <!-- JS CDN -->
 
 

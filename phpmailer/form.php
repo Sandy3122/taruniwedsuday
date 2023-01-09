@@ -1,6 +1,5 @@
 <?php
  
-  // $mail->isSMTP();
   require 'vendor/phpmailer/phpmailer/src/Exception.php';
   require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
   require 'vendor/phpmailer/phpmailer/src/SMTP.php';
@@ -8,13 +7,8 @@
   // Include autoload.php file
   require 'vendor/autoload.php';
   use PHPMailer\PHPMailer\PHPMailer;
-  // use PHPMailer\PHPMailer\SMTP;
   use PHPMailer\PHPMailer\Exception;
 
-
-  // use PHPMailerPHPMailerPHPMailer;
-  // use PHPMailerPHPMailerException;
-  
   // Create object of PHPMailer class
   // $mail = new PHPMailer(true);
 
@@ -43,14 +37,14 @@
       $mail->Port = 587;
 
       // Email ID from which you want to send the email
-      $mail->setFrom($email,$_POST['name']);
+      $mail->setFrom('seeram87@gmail.com', $_POST['name']);
       // Recipient Email ID where you want to receive emails
       $mail->addAddress('tarunianduday@gmail.com');
       $mail->addReplyTo($_POST['email'],$_POST['name']);
 
       $mail->isHTML(true);
       $mail->Subject = 'Lovely Wishes';
-      $mail->Body = "<h3 class='text-center'>Name : $name <br> Wishes : $message</h3>";
+      $mail->Body = "<h2 class='text-align=center'>Name : $name <br>Message : $message</h2>";
 
       $mail->send();
       $output = '<div class="alert alert-success">

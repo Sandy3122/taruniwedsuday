@@ -641,7 +641,7 @@ a {
 
 body
  {
-	background-image: url("/Wedding-Invitation.png");
+	background-image: url("/assets/images/invitation/Wedding-Invitation.png");
 	background-repeat: no-repeat;
   	background-attachment:fixed;
   	background-size: 100% 100vh;
