@@ -26,6 +26,12 @@
 </head>
 
 <body>
+
+  <?php
+  include('/TrauniWedsUday/phpmailer/form.php')
+  ?>
+
+
   <!-- Loading animation -->
   <div class="text-selection-disable">
     <div class="preloader">
@@ -394,16 +400,10 @@
               <h2>Our Live Wedding</h2><br>
             </div>
             <div class="embed-responsive embed-responsive-16by9" hoverable>
-              <!-- <iframe class="embed-responsive-item frameborder=0 " src="/Wedding-Invitation.pdf" frameborder="0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe> -->
 
-                <!-- <video class="myVideo" controls loop>
-                  <source src="/coming-soon.mp4" type="video/mp4">
-                </video> -->
 
-                <img class="myVideo" src="/coming-soon.mp4" alt="coming-sson">
+                <img src="/assets/coming-soon.gif" alt="coming-soon">
+
 
             </div><br>
             <p>Want to watch on YouTube? <a target="_blank" rel="noopener noreferrer"
@@ -420,7 +420,7 @@
 
             <div id="invitation" class="container img-container">
               <div class="img-overlay">
-                <img src="Wedding-Invitation.png" alt="invitation card">
+                <img src="assets/images/invitation/Wedding-Invitation.png" alt="invitation card">
 
                 <div class="card row">
                   <div class="card-title col-6 text-truncate mx-auto">

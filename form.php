@@ -46,7 +46,6 @@
       $mail->setFrom($email,$_POST['name']);
       // Recipient Email ID where you want to receive emails
       $mail->addAddress('tarunianduday@gmail.com');
-      $mail->addReplyTo($_POST['email'],$_POST['name']);
 
       $mail->isHTML(true);
       $mail->Subject = 'Lovely Wishes';

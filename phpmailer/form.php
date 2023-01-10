@@ -44,11 +44,11 @@
 
       $mail->isHTML(true);
       $mail->Subject = 'Lovely Wishes';
-      $mail->Body = "<h2 class='text-align=center'>Name : $name <br>Message : $message</h2>";
+      $mail->Body = "<div class='alert alert-success' >'<h3 align=center>Name : $name <br> Wishes : $message</h3>'</div>";
 
       $mail->send();
       $output = '<div class="alert alert-success">
-                  Thankyou! for contacting us,'.$_POST['name'].'
+      Thank you! for your warm wishes,'.$_POST['name'].' Ji
                 </div>';
                 
     } catch (Exception $e) {
