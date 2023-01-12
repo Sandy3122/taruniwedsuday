@@ -20,18 +20,12 @@
   <link rel="stylesheet" href="css/main.css" type="text/css">
 
 
-  <script type="application/json" src="js/google_analytic.js"></script>
-  <script type="application/json" src="js/jquery-1.12.4.min.js"></script>
-  <script type="application/json" src="js/modernizr.custom.js"></script>
+  <script src="js/google_analytic.js"></script>
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
 </head>
 
 <body>
-
-  <!-- <?php
-  include('/TrauniWedsUday/Phpemailer.php')
-  ?> -->
-
-
   <!-- Loading animation -->
   <div class="text-selection-disable">
     <div class="preloader">
@@ -400,10 +394,16 @@
               <h2>Our Live Wedding</h2><br>
             </div>
             <div class="embed-responsive embed-responsive-16by9" hoverable>
+              <!-- <iframe class="embed-responsive-item frameborder=0 " src="/Wedding-Invitation.pdf" frameborder="0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe> -->
 
+                <!-- <video class="myVideo" controls loop>
+                  <source src="/coming-soon.mp4" type="video/mp4">
+                </video> -->
 
-                <img src="/assets/coming-soon.gif" alt="coming-soon">
-
+                <img src="/assets/coming-soon.gif" alt="coming-sson">
 
             </div><br>
             <p>Want to watch on YouTube? <a target="_blank" rel="noopener noreferrer"
@@ -457,8 +457,8 @@
               <form id="rsvp-form" class="rsvp-form" method="post" action="">
                 <div class="col-md-12">
                   <!-- <div class="messages"></div> -->
-                  <h5 id="wishes" class="text-center text-success">
-                    <!-- <?= $output; ?> -->
+                  <h5 class="text-center text-success">
+                    <?= $output; ?>
                   </h5>
                 </div>
                 <div class="controls">
@@ -532,12 +532,7 @@
 
   <!--Audio Tags-->
   <audio-player data-src="song.mp3"></audio-player>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery1.10.0/jquery.min.js"></script>
-  <script>
-       $(document).ready(function() {
-     $('[title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."]').hide();
- });
-  </script>
+  <!-- JS CDN -->
 
 
 
