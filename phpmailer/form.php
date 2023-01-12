@@ -47,9 +47,13 @@
       $mail->Body = "<div class='alert alert-success' >'<h3 align=center>Name : $name <br> Wishes : $message</h3>'</div>";
 
       $mail->send();
-      $output = '<div class="alert alert-success">
-      Thank you! for your warm wishes,'.$_POST['name'].' Ji
-                </div>';
+      echo
+      "
+      <script>
+      alert('Thank For Your Wishes');
+      document.location.href='#wishes';
+      </script>
+      ";
                 
     } catch (Exception $e) {
       $output = '<div class="alert alert-danger">
@@ -58,3 +62,8 @@
     }
   }
 ?>
+
+
+<!-- $output = '<div class="alert alert-success">
+      Thank you! for your warm wishes,'.$_POST['name'].' Ji
+                </div>'; -->
